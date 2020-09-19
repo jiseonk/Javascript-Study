@@ -7,7 +7,7 @@ Upload my projects using Javascript during the Codecademy Learn Javascript cours
 * [Dog Years](https://github.com/jiseonk/Javascript-Study/blob/master/dog-years.js)
 
 ### (2020-09-15) Conditionals : How to use if, switch, ternary syntax
-* [Magic Eight Ball](https://github.com/jiseonk/Javascript-Study/commit/2a165dd19a9deaaad5a1d70a1702e673afe5c9dc)
+* [Magic Eight Ball](https://github.com/jiseonk/Javascript-Study/blob/master/eightball.js)
 * [Race Day](https://github.com/jiseonk/Javascript-Study/blob/master/race.js)
 
 ### (2020-09-18) Functions : Function syntax, parameter, ES6 arrow functions, concise body syntax
