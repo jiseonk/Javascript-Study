@@ -16,3 +16,6 @@ Upload my projects using Javascript during the Codecademy Learn Javascript cours
 
 ### (2020-09-19) Try a Challenge Project : Number Guesser
 * [Number Guesser Challenge Project](https://github.com/jiseonk/Javascript-Study/tree/master/Number-Guesser-Project)
+
+### (2020-09-21) Arrays : const vs let, length, methods, nested arrays
+* [Secret Message](https://github.com/jiseonk/Javascript-Study/blob/master/secretMessage.js)
