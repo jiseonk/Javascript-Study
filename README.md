@@ -19,3 +19,6 @@ Upload my projects using Javascript during the Codecademy Learn Javascript cours
 
 ### (2020-09-21) Arrays : const vs let, length, methods, nested arrays
 * [Secret Message](https://github.com/jiseonk/Javascript-Study/blob/master/secretMessage.js)
+
+### (2020-09-21) Loops : How to use for and while loops to execute blocks of code multiple times
+* [Whale Talk](https://github.com/jiseonk/Javascript-Study/blob/master/whaleTalk.js)
