@@ -1,26 +1,8 @@
 let menu = {
   _courses : {
     appetizers:[],
-    get appetizers(){
-
-    },
-    set appetizers(appetizerIn){
-      console.log(`Today's appetizer is ${appetizerIn}`);
-    },
     mains:[],
-    get mains(){
-      
-    },
-    set mains(mainIn){
-
-    },
     desserts:[],
-    get desserts(){
-
-    },
-    set desserts(dessertsIn){
-
-    },
     get courses(){
       return {
         appetizers: this.appetizers,
@@ -29,6 +11,28 @@ let menu = {
       }
     }
   },
+
+  //Getter and Setter
+  get appetizers(){
+    return this._courses.appetizers;
+  },
+  get mains(){
+   return this._courses.mains;  
+  },
+  get desserts(){
+      return this._courses.desserts;
+  },
+  set appetizers(appetizerIn){
+    this._courses.appetizers = appetizerIn;
+  },
+  set mains(mainIn){
+   this._courses.mains = mainIn;
+  },
+  set desserts(dessertsIn){
+      this._courses.desserts = dessertsIn;
+  },
+
+  
   addDishToCourse(courseName,dishName,dishPrice){
     const dish={
       name:dishName,
