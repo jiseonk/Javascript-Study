@@ -25,3 +25,7 @@ Upload my projects using Javascript during the Codecademy Learn Javascript cours
 
 ### (2020-09-22) Iterators : How to use iterator methods to simplify the process of looping over arrays
 * [Mini Linter](https://github.com/jiseonk/Javascript-Study/blob/master/miniLinter.js)
+
+
+### (2020-09-24) Objects : Learn about JavaScript ES6 object syntax to model real-world items
+* [Meal Maker](https://github.com/jiseonk/Javascript-Study/blob/master/mealMaker.js)
