@@ -3,15 +3,15 @@ let menu = {
     appetizers:[],
     mains:[],
     desserts:[],
-    get courses(){
-      return {
-        appetizers: this.appetizers,
-        mains: this.mains,
-        desserts: this.desserts
-      }
+    },
+  get courses(){
+    return {
+      appetizers: this.appetizers,
+      mains: this.mains,
+      desserts: this.desserts
     }
   },
-
+  
   //Getter and Setter
   get appetizers(){
     return this._courses.appetizers;
@@ -32,7 +32,7 @@ let menu = {
       this._courses.desserts = dessertsIn;
   },
 
-  
+  // Methods
   addDishToCourse(courseName,dishName,dishPrice){
     const dish={
       name:dishName,
