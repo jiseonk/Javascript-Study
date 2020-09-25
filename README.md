@@ -29,3 +29,4 @@ Upload my projects using Javascript during the Codecademy Learn Javascript cours
 
 ### (2020-09-24) Objects : Learn about JavaScript ES6 object syntax to model real-world items
 * [Meal Maker](https://github.com/jiseonk/Javascript-Study/blob/master/mealMaker.js)
+* [Team Stats](https://github.com/jiseonk/Javascript-Study/blob/master/Team-Stats.js)
