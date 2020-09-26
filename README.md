@@ -30,3 +30,7 @@ Upload my projects using Javascript during the Codecademy Learn Javascript cours
 ### (2020-09-24) Objects : Learn about JavaScript ES6 object syntax to model real-world items
 * [Meal Maker](https://github.com/jiseonk/Javascript-Study/blob/master/mealMaker.js)
 * [Team Stats](https://github.com/jiseonk/Javascript-Study/blob/master/Team-Stats.js)
+
+### (2020-09-26) Classes : How to create classes and use inheritance to minimize redundancy in your code
+* [Build a Library](https://github.com/jiseonk/Javascript-Study/blob/master/build-library.js)
+* [School Catalogue](https://github.com/jiseonk/Javascript-Study/blob/master/School-Catalogue.js)
