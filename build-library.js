@@ -89,7 +89,12 @@ class CD extends Media {
   }
 
   shuffle(){
-
+    let array = this.songs;
+    for(let i = array.length - 1; i > 0; i--){
+      const j = Math.floor(Math.random()*(i+1));
+      [array[i], array[j]] = [array[j],array[i]];
+    }
+    return array;
   }
 }
 
@@ -132,3 +137,8 @@ reputation.addRating(5);
 reputation.addRating(4);
 reputation.addRating(5);
 console.log(reputation.getAverageRating());
+
+// Shuffle songs of reputation
+console.log(reputation.songs);
+let shuffleReputation = reputation.shuffle();
+console.log(shuffleReputation);
