@@ -2,7 +2,7 @@
 class Media{
   constructor(title){
     this._title = title;
-    this._isCheckedOut = false;
+    this._isCheckedOut = 0;
     this._ratings = [];
   }
 
@@ -11,7 +11,11 @@ class Media{
   }
 
   get isCheckedOut(){
-    return this._isCheckedOut;
+    if(this._isCheckedOut === 1){
+      return `${this._title} is now available.`
+    } else {
+      return `${this._title} is not available now. `
+    }
   }
 
   get ratings(){
@@ -27,10 +31,11 @@ class Media{
   }
 
   getAverageRating(){
-   let sum = this.ratings.reduce((paramOne,paramTwo)=>{
+   const sum = this.ratings.reduce((paramOne,paramTwo)=>{
       return paramOne+paramTwo;
     });
-   return sum/this.ratings.length;
+   const num = sum/this.ratings.length;
+   return `The Average Rating : ${num.toFixed(2)}`;
   }
 
   addRating(newRating){
