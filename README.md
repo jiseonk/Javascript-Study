@@ -34,3 +34,6 @@ Upload my projects using Javascript during the Codecademy Learn Javascript cours
 ### (2020-09-26) Classes : How to create classes and use inheritance to minimize redundancy in your code
 * [Build a Library](https://github.com/jiseonk/Javascript-Study/blob/master/build-library.js)
 * [School Catalogue](https://github.com/jiseonk/Javascript-Study/blob/master/School-Catalogue.js)
+
+### (2020-09-28) Modules : How to use JavaScript modules, a way to define reusable logic
+* [Airplane](https://github.com/jiseonk/Javascript-Study/tree/master/modules)
