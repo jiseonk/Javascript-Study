@@ -37,3 +37,4 @@ Upload my projects using Javascript during the Codecademy Learn Javascript cours
 
 ### (2020-09-28) Modules : How to use JavaScript modules, a way to define reusable logic
 * [Airplane](https://github.com/jiseonk/Javascript-Study/tree/master/modules)
+* [Message Mixer](https://github.com/jiseonk/Javascript-Study/tree/master/messageMixer)
