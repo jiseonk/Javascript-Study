@@ -39,3 +39,6 @@ Upload my projects using Javascript during the Codecademy Learn Javascript cours
 * [Airplane](https://github.com/jiseonk/Javascript-Study/tree/master/modules)
 * [Message Mixer](https://github.com/jiseonk/Javascript-Study/tree/master/messageMixer)
 * [WorkAround](https://github.com/jiseonk/Javascript-Study/tree/master/workAround)
+
+### (2020-10-13) Challege Project: Find Your Hat (interactive command line game)
+* [Find Your Hat](https://github.com/jiseonk/Javascript-Study/blob/master/findYourHat.js)
