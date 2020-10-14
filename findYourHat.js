@@ -36,22 +36,24 @@ const myField = new Field([
 myField.print();
 
 // User Input
-let i=0, j=0;
-let presentLocation = myField.field[i][j];
 
+let i=0, j=0;
 for(let k=0; ;k++){
   const direction = prompt("Which direction would you like to move?");
-// 37 : left, 38 : up, 39 : right, 40 : down
-  if(direction === 37){
+  myField.field[i][j] = fieldCharacter;
+
+ // Increase or decrease i, j by direction
+  if(direction === 'left'){
     j--;
-  } else if(direction === 38){
+  } else if(direction === 'up'){
     i--;
-  } else if(direction === 39){
+  } else if(direction === 'right'){
     j++;
-  } else if(direction === 40){
+  } else if(direction === 'down'){
     i++;  
   }
 
+// Make sure to not get out of the area
   if(i > 3) {
     i--;
   } else if(i < 0){
@@ -62,6 +64,17 @@ for(let k=0; ;k++){
     j++;
   }
 
-  presentLocation = '*';
+// Decide user's state by the location
+  if(myField.field[i][j]===fieldCharacter){
+    myField.field[i][j] = '*';
+  } else if(myField.field[i][j]===hole){
+    console.log('Game Over. Try Again.');
+    break;
+  } else if(myField.field[i][j]===hat){
+    console.log('Congratulations! You did it!');
+    break;
+  }
+ 
+// print field
   myField.print();
 }
