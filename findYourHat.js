@@ -24,7 +24,51 @@ class Field {
 
   }
 
+  playGame(){
+    let i=0, j=0;
+    for(let k=0; ;k++){
+      const direction = prompt("Which direction would you like to move?");
+      this.field[i][j] = fieldCharacter;
+
+    // Increase or decrease i, j by direction
+      if(direction === 'left'){
+        j--;
+      } else if(direction === 'up'){
+        i--;
+      } else if(direction === 'right'){
+        j++;
+      } else if(direction === 'down'){
+        i++;  
+      }
+
+    // Make sure to not get out of the area
+      if(i > 3) {
+        i--;
+      } else if(i < 0){
+        i++;
+      } else if(j > 3){
+        j--;
+      } else if(j < 0){
+        j++;
+      }
+
+    // Decide user's state by the location
+      if(this.field[i][j]===fieldCharacter){
+        this.field[i][j] = '*';
+      } else if(this.field[i][j]===hole){
+        console.log('Game Over. Try Again.');
+        break;
+      } else if(this.field[i][j]===hat){
+        console.log('Congratulations! You did it!');
+        break;
+      }
+    
+    // print field
+      this.print();
+    }
+  }
 }
+
 
 // The Field constructor take a two-dimensional array
 const myField = new Field([
@@ -34,47 +78,5 @@ const myField = new Field([
 ]);
 
 myField.print();
+myField.playGame();
 
-// User Input
-
-let i=0, j=0;
-for(let k=0; ;k++){
-  const direction = prompt("Which direction would you like to move?");
-  myField.field[i][j] = fieldCharacter;
-
- // Increase or decrease i, j by direction
-  if(direction === 'left'){
-    j--;
-  } else if(direction === 'up'){
-    i--;
-  } else if(direction === 'right'){
-    j++;
-  } else if(direction === 'down'){
-    i++;  
-  }
-
-// Make sure to not get out of the area
-  if(i > 3) {
-    i--;
-  } else if(i < 0){
-    i++;
-  } else if(j > 3){
-    j--;
-  } else if(j < 0){
-    j++;
-  }
-
-// Decide user's state by the location
-  if(myField.field[i][j]===fieldCharacter){
-    myField.field[i][j] = '*';
-  } else if(myField.field[i][j]===hole){
-    console.log('Game Over. Try Again.');
-    break;
-  } else if(myField.field[i][j]===hat){
-    console.log('Congratulations! You did it!');
-    break;
-  }
- 
-// print field
-  myField.print();
-}
