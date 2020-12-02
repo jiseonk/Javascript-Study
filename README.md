@@ -42,3 +42,6 @@ Upload my projects using Javascript during the Codecademy Learn Javascript cours
 
 ### (2020-10-13) Challege Project: Find Your Hat (interactive command line game)
 * [Find Your Hat](https://github.com/jiseonk/Javascript-Study/blob/master/findYourHat.js)
+
+### (2020-12-02) Challenge Project : Credit Card Checker
+* [Creadit Card Checker](https://github.com/jiseonk/Javascript-Study/blob/master/creditCardChecker.js)
